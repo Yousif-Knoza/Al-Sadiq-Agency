@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="100%" height="100%" fill="none">
+  <!-- وكالة الصادق للسفريات والسياحة - الشعار الرسمي مفرغ وبدون خلفية خضراء -->
+  <defs>
+    <!-- Clip path to keep inner shapes strictly inside the globe where needed -->
+    <clipPath id="globe-clip">
+      <circle cx="472" cy="520" r="368" />
+    </clipPath>
+  </defs>
+
+  <!-- 1. Blue Globe Base -->
+  <circle cx="472" cy="520" r="368" fill="#4A9DE3" />
+
+  <!-- 2. Left Outer Orange Crescent hugging the perimeter -->
+  <path
+    d="M 218 245
+       C 135 320 85 415 85 520
+       C 85 640 145 745 240 815
+       C 200 755 170 660 170 550
+       C 170 430 200 325 245 250
+       C 235 246 226 245 218 245 Z"
+    fill="#D67428"
+  />
+
+  <!-- 3. Upper White Stylized Swoosh (Letter C / Arabic Sad flow with sharp tapering right tail) -->
+  <path
+    d="M 205 385
+       C 220 270 310 190 435 175
+       C 530 165 625 195 725 255
+       C 590 280 435 345 365 425
+       C 325 470 260 480 220 440
+       C 200 420 195 400 205 385 Z
+       M 285 360
+       C 335 270 420 235 510 235
+       C 590 235 660 255 725 255
+       C 630 280 520 330 450 380
+       C 380 430 330 430 300 405
+       C 285 390 280 375 285 360 Z"
+    fill="#FFFFFF"
+  />
+
+  <!-- 4. Lower White Stylized Swoosh (Lower loop with sharp left tip and flat beveled cut at bottom) -->
+  <path
+    d="M 240 770
+       C 340 680 485 615 625 605
+       C 725 600 785 655 765 725
+       C 745 800 665 855 560 880
+       C 475 900 395 875 350 840
+       L 430 760
+       C 490 780 560 775 615 745
+       C 665 715 680 675 650 655
+       C 610 630 520 650 415 710
+       C 340 750 280 770 240 770 Z"
+    fill="#FFFFFF"
+  />
+
+  <!-- 5. Orange Curved Contrail / Flight Trajectory -->
+  <path
+    d="M 145 520
+       C 230 575 350 580 490 545
+       C 630 510 730 435 810 355
+       L 800 385
+       C 720 460 620 535 480 570
+       C 340 605 220 595 145 545
+       Z"
+    fill="#D67428"
+  />
+
+  <!-- 6. Orange Passenger Jet Airplane -->
+  <g transform="translate(835, 320) rotate(42)">
+    <!-- Fuselage Body -->
+    <path
+      d="M 0 -60
+         C 8 -60 14 -45 14 25
+         L 12 70
+         C 12 76 6 80 0 80
+         C -6 80 -12 76 -12 70
+         L -14 25
+         C -14 -45 -8 -60 0 -60 Z"
+      fill="#D67428"
+    />
+    <!-- Swept Wings -->
+    <path
+      d="M 0 -8
+         L 85 30
+         L 85 45
+         L 12 25
+         L 10 50
+         L -10 50
+         L -12 25
+         L -85 45
+         L -85 30
+         Z"
+      fill="#D67428"
+    />
+    <!-- Rear Horizontal Stabilizers (Tail Wings) -->
+    <path
+      d="M 0 55
+         L 36 74
+         L 36 82
+         L 0 72
+         L -36 82
+         L -36 74
+         Z"
+      fill="#D67428"
+    />
+    <!-- Vertical Tail Fin -->
+    <path
+      d="M -3 45
+         L 3 45
+         L 2 76
+         L -2 76
+         Z"
+      fill="#BF611A"
+    />
+  </g>
+</svg>
